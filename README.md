@@ -25,6 +25,7 @@ File naming convention:
     <img width="500" src="https://github.com/aishi2/Emo-Track/assets/130057966/01a4963d-4623-4a2c-8bdd-fc8a225917df" alt="Dataset count chat">
     <p align="center">Fig - Dataset count chat</p>
 </p>
+
 # Model Architecture
 * From the dataset, three features are extracted
   - Mel-Frequency Cepstral Coefficients (MFCC) - Represents the short-term power spectrum of a sound signal. MFCC Coefficients, Delta Coefficients and Delta-Delta Coefficients are extracted.
