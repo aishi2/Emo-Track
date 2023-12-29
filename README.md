@@ -59,7 +59,6 @@ The Emo-Track model achieves an accuracy of 95.83%. This high accuracy demonstra
 
 # Confusion Matrix
 <p align="center">
-    <img width="500" src="https://user-images.githubusercontent.com/71036685/236631557-2042f780-aa75-4db3-8092-c66559248a78.png" alt="Confusion Matrix">
+    <img width="500" src="![image](https://github.com/aishi2/Emo-Track/assets/130057966/b6eb681f-fb86-48db-a798-9f9dc2547dfe)" alt="Confusion Matrix">
     <p align="center">Fig - Confusion Matrix</p>
 </p>
-----image of confusion matrix
