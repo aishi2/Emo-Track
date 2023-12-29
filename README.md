@@ -37,12 +37,14 @@ File naming convention:
     <img width="500" src="https://github.com/aishi2/Emo-Track/assets/130057966/8554bfdc-f966-495e-8328-e0aceb5f0f9d" alt="Explained Variance Ratio Plot">
     <p align="center">Fig - Explained Variance Ratio Plot</p>
 </p>
+
 * Standardization of feature set is done to ensure that all features are on a similar scale.
 * Support Vector Machine (SVM) is used to train the model using 20 folds Stratified KFold Cross Validation.
 <p align="center">
     <img width="500" src="https://github.com/aishi2/Emo-Track/assets/130057966/42ccb018-4c2b-4ef9-9433-fca28c024486" alt="Training folds">
     <p align="center">Fig - Training folds</p>
 </p>
+
 * Achieved the best model with the accuracy of 95.83%.
 
 # Results
