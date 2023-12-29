@@ -17,18 +17,14 @@ The SER model is trained on Ryerson Audio – Visual Database of Emotional Speec
 
 File naming convention:
 <p align="center">
-    <img width="500" src="![image](https://github.com/aishi2/Emo-Track/assets/130057966/d199fcf6-71fc-4d6b-b11c-f72e57452a0c)" alt="File Naming Convention">
+    <img width="500" src="https://github.com/aishi2/Emo-Track/assets/130057966/5071fc10-3fd4-4713-a5dc-984259e5856e" alt="File Naming Convention">
     <p align="center">Fig - File Naming Convention</p>
 </p>
-----image of file naming
-
 
 <p align="center">
-    <img width="500" src="https://user-images.githubusercontent.com/71036685/236631557-2042f780-aa75-4db3-8092-c66559248a78.png" alt="Dataset count chat">
+    <img width="500" src="https://github.com/aishi2/Emo-Track/assets/130057966/01a4963d-4623-4a2c-8bdd-fc8a225917df" alt="Dataset count chat">
     <p align="center">Fig - Dataset count chat</p>
 </p>
-----image of dataset chart
-
 # Model Architecture
 * From the dataset, three features are extracted
   - Mel-Frequency Cepstral Coefficients (MFCC) - Represents the short-term power spectrum of a sound signal. MFCC Coefficients, Delta Coefficients and Delta-Delta Coefficients are extracted.
@@ -36,22 +32,16 @@ File naming convention:
   - Zero Crossing Rate (ZCR) - Rate at which a signal changes its sign. A high ZCR may indicate a noisy or percussive signal while A low ZCR indicate a smooth signal.
 * Mean and Standard Deviation of all the features are taken into consideration.
 * Dimensionality reduction is applied using Principal Component Analysis (PCA) by visualizing the Explained Variance Ratio Plot.
-
 <p align="center">
-    <img width="500" src="https://user-images.githubusercontent.com/71036685/236631557-2042f780-aa75-4db3-8092-c66559248a78.png" alt="Explained Variance Ratio Plot">
+    <img width="500" src="https://github.com/aishi2/Emo-Track/assets/130057966/8554bfdc-f966-495e-8328-e0aceb5f0f9d" alt="Explained Variance Ratio Plot">
     <p align="center">Fig - Explained Variance Ratio Plot</p>
 </p>
-----image of variance ratio plot
-
 * Standardization of feature set is done to ensure that all features are on a similar scale.
 * Support Vector Machine (SVM) is used to train the model using 20 folds Stratified KFold Cross Validation.
-
 <p align="center">
-    <img width="500" src="https://user-images.githubusercontent.com/71036685/236631557-2042f780-aa75-4db3-8092-c66559248a78.png" alt="Training folds">
+    <img width="500" src="https://github.com/aishi2/Emo-Track/assets/130057966/42ccb018-4c2b-4ef9-9433-fca28c024486" alt="Training folds">
     <p align="center">Fig - Training folds</p>
 </p>
-----image of KFold training
-
 * Achieved the best model with the accuracy of 95.83%.
 
 # Results
