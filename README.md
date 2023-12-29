@@ -16,9 +16,8 @@ Sentiment analysis is a challenging task in the field of Natural Language Proces
 The SER model is trained on Ryerson Audio – Visual Database of Emotional Speech and Song (RAVDESS) dataset where the Emotional Speech Audio dataset is used. It contains 1440 audio files by 24 professional actors (12 Female, 12 Male). This dataset includes eight types of emotion audios viz. Calm, Happy, Sad, Angry, Fearful, Surprise, Disgust, and Neutral where each expression is produced at two levels of Emotional Intensity (Normal, Strong) except the Neutral which is only produced in Normal intensity.
 
 File naming convention:
-
 <p align="center">
-    <img width="500" src="https://github.com/aishi2/Emo-Track/blob/main/Assets/File%20Naming%20Convention.png" alt="File Naming Convention">
+    <img width="500" src="![image](https://github.com/aishi2/Emo-Track/assets/130057966/d199fcf6-71fc-4d6b-b11c-f72e57452a0c)" alt="File Naming Convention">
     <p align="center">Fig - File Naming Convention</p>
 </p>
 ----image of file naming
