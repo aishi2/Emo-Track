@@ -59,6 +59,6 @@ The Emo-Track model achieves an accuracy of 95.83%. This high accuracy demonstra
 
 # Confusion Matrix
 <p align="center">
-    <img width="500" src="https://github.com/aishi2/Emo-Track/blob/main/Assets/Confusion%20Matrix.jpg" alt="Training folds">
+    <img width="500" src="https://github.com/aishi2/Emo-Track/assets/130057966/c672a174-b2ed-4ef4-8f61-8ab96b9ad5c4" alt="Training folds">
     <p align="center">Fig - Training folds</p>
 </p>
