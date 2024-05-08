@@ -123,4 +123,4 @@ Contributions are welcome! Please feel free to submit bug reports, feature reque
 
 ## ⚖️ License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/deepgoenka/Emo-Track/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/aishi2/Emo-Track/blob/main/LICENSE) file for details.
